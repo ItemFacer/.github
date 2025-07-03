@@ -1,42 +1,50 @@
-# 🧠 ItemFacer
+# ItemFacer
 
-**ItemFacer** is a complete **web-to-mobile solution** designed to **track and manage product facings** using cutting-edge **Augmented Reality (AR)** technologies, **embedded models**, and **Model-Controlled Processing (MCP)**. Our platform is tailored to help retailers and suppliers **maximize product visibility**, optimize in-store layouts, and enhance decision-making across the supply chain.
+**ItemFacer** is a complete **web-to-mobile solution** designed to **track and manage product facings** using cutting-edge **Augmented Reality (AR)** technologies, **embedded ML models**, and **Model Context Protocol (MCP)** to maximize product visibility and optimize in-store layouts.
 
 ---
 
 ## 📦 What is ItemFacer?
 
-_ItemFacer_ uses mobile and web interfaces powered by AR to digitize how products are tracked and managed in physical spaces. It combines:
+_ItemFacer_ transforms physical retail environments through AR-powered mobile and web interfaces. It combines:
 
 - 📱 AR-based mobile scanning
-- 🧩 Embedded machine learning models
-- 🔁 Real-time sync with MCP backend
+- 🧠 Embedded machine learning models
+- 🔁 Real-time sync via **Model Context Protocol (MCP)**  
 - 📊 Analytics for product-facing performance
+
+---
+
+## 🧠 What is MCP?
+
+**Model Context Protocol (MCP)**, developed by Anthropic in late 2024, is an open-source, standardized JSON-RPC communication protocol. It enables AI models to seamlessly connect with external data sources and tools—such as your backend systems or product databases—without building custom integrations for each one :contentReference[oaicite:1]{index=1}.
+
+MCP acts like a universal "USB-C port" for AI-enhanced apps, allowing your embedded models to access context (e.g., inventory databases, shelf-layout metadata) and perform actions via secure, interoperable connections :contentReference[oaicite:2]{index=2}.
 
 ---
 
 ## 🚀 Features
 
 - 🔍 **AR Product Scanning**  
-  Visual recognition of product layouts and facings using AR-enhanced mobile apps.
+  Detect and analyze shelf layouts using your phone’s camera.
 
-- 🧠 **Smart Layout Analysis**  
-  Detect underutilized shelf space or suboptimal placement with embedded ML.
+- 🧠 **Smart Layout Analytics**  
+  On-device model assesses product-facing quality and placement.
 
-- 🛠️ **MCP Integration**  
-  Model-Controlled Processing ensures efficient and dynamic model inference and updates.
+- 🔄 **MCP Integration**  
+  Embedded models retrieve real-time data and push updates using MCP.
 
 - 🌐 **Web Dashboard**  
-  Track, manage, and analyze facings and performance trends in real-time.
+  View analytics, performance trends, and reports in real time.
 
 - 🔐 **Secure Multi-user Management**  
-  Roles and permissions for field users, supervisors, and admins.
+  Roles and permissions for field agents, supervisors, and admins.
 
 ---
 
 ## 🖼️ Screenshots / Demo
 
-<!-- Add animated GIFs, screenshots, or links to demo videos here -->
+<!-- Add animated GIFs, screenshots, or demo videos here -->
 <!-- Example:
 ![Mobile App Demo](docs/demo.gif)
 -->
@@ -45,7 +53,6 @@ _ItemFacer_ uses mobile and web interfaces powered by AR to digitize how product
 
 ## 📚 Documentation
 
-<!-- Link to full technical or user-facing documentation -->
 - [Getting Started](docs/GETTING_STARTED.md)
 - [API Reference](docs/API_REFERENCE.md)
 - [Developer Guide](docs/DEVELOPER_GUIDE.md)
@@ -54,53 +61,41 @@ _ItemFacer_ uses mobile and web interfaces powered by AR to digitize how product
 
 ## 🛠️ Tech Stack
 
-| Technology       | Purpose                          |
-|------------------|----------------------------------|
-| React / Vue.js   | Frontend Web Dashboard           |
-| Flutter / React Native | Mobile App Interface         |
-| TensorFlow Lite  | On-device ML model deployment    |
-| ARKit / ARCore   | Augmented Reality Tracking       |
-| FastAPI / Node.js| Backend APIs                     |
-| PostgreSQL / Supabase | Data storage + auth             |
-| Docker / Kubernetes | Deployment + Scaling             |
-
----
-
-## 📈 Use Cases
-
-<!-- Add relevant use cases for clients or industries -->
-- Retail shelf auditing
-- In-store product placement optimization
-- Marketing compliance tracking
-- Inventory management via visual validation
-
-<!-- 
----
-
-## 🧩 Modules (To Fill In)
-
-- `itemfacer-mobile`: Mobile AR scanner app
-- `itemfacer-web`: Web dashboard
-- `itemfacer-api`: Backend services
-- `itemfacer-ml`: Embedded model training & deployment -->
+| Technology           | Purpose                          |
+|----------------------|----------------------------------|
+| React / Vue.js / Next.js      | Web Dashboard                    |
+| Kotlin / Jetpack Compose | Mobile AR App                 |
+| TensorFlow Lite      | Embedded ML                      |
+| ARKit / ARCore       | AR Tracking                      |
+| FastAPI / Node.js    | Backend APIs                     |
+| PostgreSQL / Supabase| Data Storage + Authentication    |
+| Docker / Kubernetes  | Deployment & Scaling             |
+| **MCP**              | Context integration between models and backend systems |
 
 ---
 
 ## 📋 Roadmap
 
-<!-- Add planned features or future releases -->
-- [ ] Cloud-based model updates
-- [ ] Offline mobile scanning support
-- [ ] Heatmap-based shelf analytics
-- [ ] ERP integration
+<!-- Add planned features or future roadmap -->
+- [ ] Cloud-based model updates  
+- [ ] Offline mobile scanning support  
+- [ ] Shelf heatmap & insights  
+- [ ] ERP system integration  
 
-<!-- ---
+<!--
+---
 
 ## 💬 Contact
 
 Have questions, partnership requests, or want a demo?
 
-📧 Email us at [team@itemfacer.com](mailto:team@itemfacer.com)
+📧 Email us at [team@itemfacer.com](mailto:team@itemfacer.com)  
+🌐 Visit us at [https://itemfacer.com](https://itemfacer.com)
 
-🌐 Visit us at [https://itemfacer.com](https://itemfacer.com) -->
+---
+
+## ⭐️ Give Us a Star
+
+If you find this project helpful or innovative, please ⭐️ star the org!
+-->
 
